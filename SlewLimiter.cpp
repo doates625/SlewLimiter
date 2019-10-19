@@ -47,7 +47,7 @@ float SlewLimiter::update(float val)
 	else
 	{
 		float delta = val - val_prev;
-		delta = clamp_limit(delta, delta_min, delta_max);
+		delta = Util::clamp(delta, delta_min, delta_max);
 		val_slew = val_prev + delta;
 	}
 	val_prev = val_slew;
