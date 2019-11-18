@@ -9,3 +9,4 @@ On the first frame after construction or reset, the input is assigned directly t
 
 ### Dependencies
 - [CppUtil](https://github.com/doates625/CppUtil.git)
+- [ClampLimiter](https://github.com/doates625/ClampLimiter.git)
